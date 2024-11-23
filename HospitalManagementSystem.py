@@ -1,5 +1,5 @@
 import mysql.connector
-db = mysql.connector.connect(host="localhost", user="root", passwd="Kushal3008@", database="Hospital")
+db = mysql.connector.connect(host="localhost", user="root", passwd="", database="Hospital")
 mycursor = db.cursor()
 def addPatient():
     name = str(input("Enter the name of patient:"))
